@@ -4,11 +4,11 @@ def inc(x):
 
 
 def test_answer_fail():
-    assert inc(3) == 5
+    assert inc(3) == 4
 
 
 
 def test_answer_succeed():
-    assert inc(3) == 4
+    assert inc(13) == 14
 
 
